@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #8594b4;
+  /* min-height: 15vh; */
+  padding: 10px 20px 10px 20px;
+  left: 0;
+  right: 0;
+  margin: 0;
+  top: 0;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* width: 100%; */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content-container {
+  display: flex;
+}
+
+.Folder-Sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  height: 100%;
+  border: 1px solid black;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.List-Notes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  /* border: 1px solid black; */
+  width: 736px;
+  height: 100%;
+}
+
+.folder {
+  border: 1px solid black;
+  width: 199px;
+}
+
+.note {
+  text-align: left;
+  border: 1px solid black;
+  width: 700px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.note h2,
+.note p {
+  margin-left: 10px;
+}
+
+.note button {
+  margin-left: 600px;
+  margin-bottom: 10px;
+}
+
+.add-note-btn {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back-btn {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form {
+  border: 1px solid black;
+  padding: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  margin-right: 5px;
+}
+
+.addFolder-btn {
+  margin-left: 5px;
+}
+
+#note-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input#note-name {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input#note-content {
+  height: 300px;
+}
+
+.addNote-btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 100px;
+}
+
+select#note-folder-select {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+div.error {
+  color: red;
+}
+
+.EditNote__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+select#folders {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
